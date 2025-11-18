@@ -41,3 +41,4 @@ v1.0.0
 ### What’s Next
 We are planning for multiple updates with major UI features, which helps in enhance user’s productivity. Keep supporting us !!!
 Your feedback is crucial as we grow. Please let us know what you love (and what you think we can do better!) by reaching out to us at [solveuhofficial@gmail.com].
+privacy policy: https://sites.google.com/view/growhabit/privacy-policy
