@@ -2,7 +2,7 @@
 
 Change tracker for Grow Habit
 
-## [V1.0.0] - 2025-10-18
+## [V1.0.0] - 2025-11-06
 ### Added
 - Initial production release of Grow Habit
 - Core features:
@@ -17,9 +17,34 @@ Change tracker for Grow Habit
 -	User can buy items such us shovels and potions from store using in app coins. Same can be obtained from the scratch cards earned when completing multiple task.
 -	Based on the persistency the plant will grow and user can gain level such as newbie, pro, chamber and master.
 -	User can also maintain streak and thereby can achieve badges based on that.
-### Changed
-- N/A (Initial Release)
-### Fixed
-- N/A (Initial Release)
 
-[V1.0.0]: https://github.com/rakeshpraneel/Task-Manager/releases/tag/V1.0.0
+### Changed
+- Show watch video option whenever user runs out of items.
+- Change the message shown in dialog box when timer is completed.
+- Adding habit reminder feature.
+  - User won't be able to set multiple alarm at same time.
+  - Whatever be the target days, all habits which have reminder configured, it will be set for first 7 days and will be renewed on basis on how user water's it.
+  - If user doesn't water for 7 days then there won't be any alarm in place, it will be renewed only when user again water's it.
+- Added notification manager to send out timer status of habits when the application is minimised.
+- Added notification feature to intimate user when a timer is completed.
+- User will get scratch card reward after achieving master status in any habit.
+
+### Fixed
+- There was bug with custom target days and custom timer, it was defaulted to 30 days and 25 minutes when user enables it but in UI selector it was showing 14 days and 20 mins
+  - This is now updated to 14 days and 25 mins.
+- When dead plant is revived the water icon was still visible in the task page, but in garden page it was showing plant is already watered.
+  - This has been fixed now, watering option will be enabled both in garden and task page after reviving plant.
+- Fixed timer issue -> timer wasn't properly running when device is locked or app is minimised, updated the counter logic to calculate the remaining time
+  based on the last recorded time while app was paused/minimised.
+- UI will be refreshed whenever app is resumed from sleep.
+- Included flag so that user won't be able to delete plant from garden when the timer runs.
+- Seperate messages will be shown for unavailability of shovel and active timer.
+- Plant is not growing in garden page but its level is changing in journal page. ---> Issue fixed, updated level names were not in sync with slot manager module.
+- Level was not updating properly when watered from garden page. ---> Issue fixed, Now post watering, garden display will call update method from task page.
+  - Added fallback message if in case this fails, so that user can water from journal page.
+
+### Tracker
+-   Current version (27) V1.0.0
+-   Closed testing stable version - (26) V1.0.0
+[V1.0.0]: https://github.com/rakeshpraneel/Task-Manager/releases/tag/v1.0.0.15
+testing******
