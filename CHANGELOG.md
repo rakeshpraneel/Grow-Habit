@@ -2,6 +2,22 @@
 
 Change tracker for Grow Habit
 
+## [V2.0.0] - 2026-02-09
+
+> Description
+> Grow Habit comes up with few new features mostly on UX part and with some major security patches.
+
+### New Features
+* Improved feedback.
+* More Interactable.
+* New Sound Notifications.
+
+### Bug Fixes
+* Security Update.
+* Manual Volume control using media volume.
+* Alarm can be silenced.
+[V2.0.0] - 
+
 ## [V1.0.0] - 2025-11-06
 ### Added
 - Initial production release of Grow Habit
