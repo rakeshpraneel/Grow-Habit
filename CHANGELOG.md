@@ -2,6 +2,19 @@
 
 Change tracker for Grow Habit
 
+## [V2.0.1] - 2026-03-26
+
+> Description
+> Grow Habit comes up with few new features mostly on UX part and with some major security patches.
+
+### New Features
+* Starter task and habit for new users.
+* Enhanced journal page.
+* Added share your status option with social media integration.
+
+### Bug Fixes
+* Fixed Sound notification to timer based task.
+
 ## [V2.0.0] - 2026-02-09
 
 > Description
