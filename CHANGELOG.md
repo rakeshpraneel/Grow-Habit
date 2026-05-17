@@ -2,6 +2,23 @@
 
 Change tracker for Grow Habit
 
+## [V2.0.2] - 2026-04-25
+
+> Description
+> Grow Habit comes up with few new features and some major UI updates.
+
+### New Features
+* Included alarm edit feature and timer item to perform it.
+* Included alarm item to inventory, store and scratch card reward.
+* Updated share icon for enhanced UI.
+* Improved UI.
+
+### Bug Fixes
+* Glitch with starter task and habit is fixed.
+* In App update notification bug fixed.(need to check once prod deployment is done)
+* Added haptic feel for task page.
+* Updated all plants to carrot.
+
 ## [V2.0.1] - 2026-03-26
 
 > Description
