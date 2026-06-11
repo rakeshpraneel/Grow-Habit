@@ -2,6 +2,28 @@
 
 Change tracker for Grow Habit
 
+## [V2.0.2] - 2026-06-06
+
+> Description
+> Bug fixes.
+
+### Bug Fixes
+* Fixed revive logic bug.
+
+## [V2.0.2] - 2026-05-18
+
+> Description
+> Grow Habit comes up with few new features and some major UI updates.
+
+### New Features
+* Introducted trading system in store for items.
+* Revised reward logic system.
+* New garden purchase option.
+
+### Bug Fixes
+* Fixed level display bug under more habit details.
+* Fixed alarm reward bug.
+
 ## [V2.0.2] - 2026-04-25
 
 > Description
