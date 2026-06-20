@@ -2,10 +2,18 @@
 
 Change tracker for Grow Habit
 
-## [V2.0.2] - 2026-06-06
+## [V2.0.2] - 2026-06-14
 
-> Description
-> Bug fixes.
+### New Features
+* Included water undo for the day feature for habits.
+* Double the earned rewards.
+
+### Bug Fixes
+
+### Other
+* Few UI enhancements.
+
+## [V2.0.2] - 2026-06-06
 
 ### Bug Fixes
 * Fixed revive logic bug.
