@@ -2,6 +2,13 @@
 
 Change tracker for Grow Habit
 
+## [V2.0.3] - 2026-07-14
+
+### New Features
+* Added Time Travel feature to water missed plants.
+* Improved user experience.
+* Bug fixes.
+
 ## [V2.0.3] - 2026-06-21
 
 ### New Features
