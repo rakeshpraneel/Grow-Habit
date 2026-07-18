@@ -2,6 +2,12 @@
 
 Change tracker for Grow Habit
 
+## [V2.0.3] - 2026-06-21
+
+### New Features
+* Improved user experience.
+* Bug fixes.
+
 ## [V2.0.2] - 2026-06-14
 
 ### New Features
